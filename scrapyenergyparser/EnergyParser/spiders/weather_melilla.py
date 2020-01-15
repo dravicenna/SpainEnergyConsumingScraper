@@ -13,9 +13,9 @@ class WeatherMelillaSpider(scrapy.Spider):
 
     # set custom settings
     custom_settings = {
-        'DEPTH_LIMIT': 2,
+        # 'DEPTH_LIMIT': 2,
         'FEED_FORMAT': "csv",
-        'FEED_URI': 'weather_melilla.csv'
+        'FEED_URI': 'weather_melilla2020.csv'
     }
 
     # "detail": (.+?)\, \"grid\"
